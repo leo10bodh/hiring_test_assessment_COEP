@@ -2,13 +2,13 @@
 
 # Fill in the below information:
 
-  ## Name: s
+  ## Name: subodh choudhari
 
-  ## Email: 
+  ## Email: choudharism20.comp@coeptech.ac.in
 
-  ## Roll No:
+  ## Roll No: 112003028
 
-  ## Branch: 
+  ## Branch: computer engineering
 
 # Instructions:
 
