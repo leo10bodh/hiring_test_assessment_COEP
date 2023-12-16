@@ -13,7 +13,7 @@
 # Instructions:
 
   ## Clone the repository to your local PC:
-  - git clone https://github.com/ManasVB/hiring_test_assessment.git
+  - git clone https://github.com/Tapas-Services/hiring_test_assessment_COEP.git
   - cd ./hiring_test_assessment
 
   ## Add your credentials:
