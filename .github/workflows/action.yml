@@ -1,0 +1,40 @@
+name: Check the Tests
+
+on:
+  push:
+    branches:
+      - '*'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Run C Code
+        run: |
+          if ls Questionnaire/*.c >/dev/null 2>&1; then
+            chmod +x run.sh
+            ./run.sh c
+          else
+            echo "No C files found."
+          fi
+
+      - name: Run C++ Code
+        run: |
+          if ls Questionnaire/*.cpp >/dev/null 2>&1; then
+            chmod +x run.sh
+            ./run.sh cpp
+          else
+            echo "No C++ files found."
+          fi
+
+      - name: Run Python Scripts
+        run: |
+          if ls Questionnaire/*.py >/dev/null 2>&1; then
+            chmod +x run.sh
+            ./run.sh python
+          else
+            echo "No Python files found."
+          fi
