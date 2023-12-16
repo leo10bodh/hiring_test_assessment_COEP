@@ -35,16 +35,14 @@
 
 # The Test:
 
+  - Use C, C++ or Python only
+
   ## Structure:
   - There are 3 programming questions in a pdf file in the `Questionnaire` directory.
-  - You can use any programming language that you like.
   - You need to make sure that the program runs properly and gives correct output (No syntax, compiling, run-time, semantics error)
-  - For `Q1` the code should print all the output on terminal.
-  - For `Q2` take input (arr_size, arr_elements) from the user and it should print the missing element.
-  - For `Q3` code should print the number of solutions for 11 -> 0, 13 -> 1, 42 -> 3, 255 -> ?
+  - For all the 3 questions, the code should print the given input/output as in the pdf.
 
   ## Timing:
-  - You will have 80 mins to solve them.
-  - After 80 mins the repository will be made private, which means you will not be able to add more commits and your last commit will be considered final.
+  - You will have 90 mins to solve them.
+  - After 90 mins the repository will be made private, which means you will not be able to add more commits and your last commit will be considered final.
   - Keep updating your git branch regulary to ensure you don't miss the timeout.
-
